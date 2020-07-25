@@ -16,10 +16,10 @@
 
 <?php
 //MySQL接続情報
-$dbuser="co-19-203.99sv-c";
-$dbpass="b3TDXGmF";
+$dbuser="〇〇";
+$dbpass="〇〇";
 //接続情報
-$dsn = 'mysql:host=localhost;dbname=co_19_203_99sv_coco_com;charset=utf8mb4';
+$dsn = 'mysql:host=localhost;dbname=〇〇;charset=utf8mb4';
 
 $user1="CREATE TABLE user_information(
 id INT  auto_increment primary key ,
