@@ -12,9 +12,9 @@
         'mp4' => 'video/mp4'
     );
     try {
-        $dbuser="co-19-203.99sv-c";
-        $dbpass="b3TDXGmF";
-        $dsn = 'mysql:host=localhost;dbname=co_19_203_99sv_coco_com;charset=utf8mb4';
+        $dbuser="〇〇";
+        $dbpass="〇〇";
+        $dsn = 'mysql:host=localhost;dbname=〇〇;charset=utf8mb4';
         $pdo = new PDO($dsn, $dbuser, $dbpass, [PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION]);
         $sql = "SELECT * FROM mediatest WHERE fname = :target;";
         $stmt = $pdo->prepare($sql);
